@@ -45,7 +45,7 @@ class puppeteerInfiniteScroll {
       this.page = await this.browser.newPage()
       this.page.setViewport({ width: 1280, height: 926 })
 
-      this.page.setRequestInterception(true)
+      this.page.,
       this.page.on(
         'request',
         request => {
