@@ -1,0 +1,23 @@
+{
+  "name": "puppeteer-infinite-scroll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tawsbob/puppeteer-infinite-scroll.git"
+  },
+  "author": "Dellean Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tawsbob/puppeteer-infinite-scroll/issues"
+  },
+  "homepage": "https://github.com/tawsbob/puppeteer-infinite-scroll#readme"
+}
