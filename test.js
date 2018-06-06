@@ -1,10 +1,10 @@
-const puppeteerInfiniteScroll = require('./src/scraper')
+const puppeteerInfiniteScroll = require('./src/puppeter-infinite-scroll')
 
 ;(async ()=>{
 try {
-  const nav = new puppeteerInfiniteScroll()
-  await nav.start()
-  await nav.open({
+  const browser = new puppeteerInfiniteScroll()
+  await browser.start()
+  await browser.open({
     url: 'https://medium.com/search?q=python',
     loadImages: false,
     endpoint: 'https://medium.com/search/posts?q',
@@ -12,7 +12,7 @@ try {
       //console.log(res)
     },
     onScroll: ()=>{
-      console.log(`onScroll ${sc.scrollCount}`)
+      console.log(`onScroll ${browser.scrollCount}`)
 
     }
   })
