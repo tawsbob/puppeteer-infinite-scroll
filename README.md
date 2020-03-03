@@ -1,7 +1,7 @@
 # puppeter-infinite-scroll
 Just a helper to scrape data in sites that use infinete scroll.
 ```
-npm install puppeter-infinite-scroll
+npm i puppeteer-infinite-scroll
 ```
 
 # The problem
